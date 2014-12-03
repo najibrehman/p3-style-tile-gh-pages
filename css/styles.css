@@ -1,0 +1,69 @@
+/* Set Your Own Margin & Padding */
+h1, h2, h3{
+	font-family: 'Playfair Display SC', serif;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+}
+
+p, em, section{
+	margin: 0px 10px;
+	font-family: Helvetica;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+	color:black;
+	font-family: 'Helvetica',cursive;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1,
+.pattern-1 {
+	margin-left: 38px;
+}
+
+.color-1 {
+	background: black;
+}
+
+.color-2 {
+	background: yellow;
+}
+
+.color-3 {
+	background: white;
+}
+
+.pattern-1 {
+	background: url("../img/crossword.png") no-repeat;
+}
+
+.pattern-2 {
+	background: url("../img/wild_flowers.png") no-repeat;
+}
+
+.pattern-3 {
+	background: url("../img/dark.png") no-repeat;
+}
+
+
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
